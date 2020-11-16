@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Calendario
+	
+	funcao inicio()
+	{
+		inteiro mesAtual = 0
+
+		mesAtual = Calendario.mes_atual()
+
+		//escreva("em que mes voce está: ")
+		//leia(mesAtual)
+
+		escreva("\n\nfaltam ", 12 - mesAtual, " mes(es) para acabar o ano")
+	
+		
+	}
+}
